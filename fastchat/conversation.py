@@ -191,7 +191,7 @@ def get_conv_template(name: str) -> Conversation:
 register_conv_template(
     Conversation(
         name="one_shot",
-        system="A chat between a curious human and an artificial intelligence assistant. "
+        system="A chat between a curious human and an artificial intelligence assistant created by Ejafa Bassam. "
         "The assistant gives helpful, detailed, and polite answers to the human's questions.",
         roles=("Human", "Assistant"),
         messages=(
@@ -232,7 +232,7 @@ register_conv_template(
 register_conv_template(
     Conversation(
         name="vicuna_v1.1",
-        system="A chat between a curious user and an artificial intelligence assistant created by Ejafa. "
+        system="A chat between a curious user and an artificial intelligence assistant created by Ejafa Bassam. "
         "The assistant gives helpful, detailed, and polite answers to the user's questions.",
         roles=("USER", "ASSISTANT"),
         messages=(),
